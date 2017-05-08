@@ -1,0 +1,224 @@
+//
+//  SequenceView.swift
+//  Sequoia
+//
+//  Created by Colin Caufield on 12/1/14.
+//  Copyright (c) 2014 Secret Geometry, Inc. All rights reserved.
+//
+
+import UIKit
+
+class SequenceView: UIView {
+    
+    weak var delegate : SequenceViewDelegate?
+    var itemRows = [[UIButton]]()
+    var rowNames = ["untitled"]
+    var rows = 0
+    var cols = 0
+    var itemWidth = CGFloat(0.0)
+    var itemHeight = CGFloat(0.0)
+    var cursorOffset = 0.0
+    var showCursor = false
+    var cursorView: UIImageView! = nil
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        initCommon()
+    }
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        initCommon()
+    }
+    
+    func initCommon() {
+        backgroundColor = UIColor.darkGrayColor()
+        createCursorView()
+        changeButtonColumns(8, rows:12)
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        resizeCursorView()
+        layoutButtons()
+    }
+    
+    override func drawRect(rect: CGRect) {
+        super.drawRect(rect)
+        
+        let minX = CGRectGetMinX(rect)
+        let minY = CGRectGetMinY(rect)
+        let maxX = CGRectGetMaxX(rect)
+        let maxY = CGRectGetMaxY(rect)
+        
+        let context = UIGraphicsGetCurrentContext()
+        
+        CGContextSetStrokeColorWithColor(context, UIColor.redColor().CGColor)
+        CGContextSetLineWidth(context, 2.0)
+        
+        CGContextStrokeRect(context, bounds)
+        
+        CGContextBeginPath(context)
+        CGContextMoveToPoint(context, minX, minY)
+        CGContextAddLineToPoint(context, maxX, maxY)
+        CGContextMoveToPoint(context, maxX, minY)
+        CGContextAddLineToPoint(context, minX, maxY)
+        CGContextStrokePath(context)
+    }
+    
+    func createCursorView() {
+        
+        let path = NSBundle.mainBundle().pathForResource("Images/SequenceCursor", ofType: "png")
+        let insets = UIEdgeInsetsMake(7.0, 0.0, 7.0, 0.0)
+        let image = UIImage(contentsOfFile: path!)?.resizableImageWithCapInsets(insets)
+        
+        self.cursorView = UIImageView(image: image)
+        self.addSubview(self.cursorView)
+        
+        resizeCursorView()
+        moveCursorView(0.0)
+    }
+    
+    func resizeCursorView() {
+        
+        self.cursorView.frame.size.height = self.frame.size.height
+    }
+    
+    func moveCursorView(timeOffset: CGFloat) {
+        
+        var position: CGFloat = 0.0
+        
+        if self.cols > 0 {
+            position = self.frame.width * timeOffset / CGFloat(self.cols)
+        }
+        
+        self.cursorView.frame.origin.x = position - 0.5 * self.cursorView.frame.width
+    }
+    
+    func changeButtonColumns(cols: Int, rows: Int) {
+        
+        self.rows = rows
+        self.cols = cols
+        
+        updateItemSizes()
+        
+        if rows < itemRows.count {
+            itemRows.removeRange(rows..<itemRows.count)
+        }
+        else if rows > itemRows.count {
+            itemRows += [[UIButton]](count: rows - itemRows.count, repeatedValue: [])
+        }
+        
+        for i in 0..<itemRows.count {
+            
+            if cols < itemRows[i].count {
+                itemRows.removeRange(cols..<itemRows[i].count)
+            }
+            
+            while cols > itemRows[i].count {
+                
+                let button = UIButton(type: .System) as UIButton
+                
+                let value = rows - i - 1
+                let title = String(rowNames[value % rowNames.count])
+                button.titleLabel?.text = title
+                button.setTitle(title, forState:.Normal)
+                //button.setTitle(title, forState:.Selected)
+                
+                button.setTitleColor(UIColor.clearColor(), forState: .Normal)
+                //button.setTitleColor(UIColor.clearColor(), forState: .Normal)
+                
+                button.addTarget(nil, action:#selector(itemTouched(_:)), forControlEvents:.TouchDown)
+                //button.addTarget(self, action:"itemUpInside:", forControlEvents:.TouchUpInside)
+                //button.addTarget(self, action:"itemUpOutside:", forControlEvents:.TouchUpOutside)
+                
+                itemRows[i].append(button)
+                
+                //addSubview(button)
+                
+                self.insertSubview(button, belowSubview: self.cursorView)
+            }
+        }
+    }
+    
+    func layoutButtons() {
+        
+        updateItemSizes()
+        
+        var x = CGFloat(0.0)
+        var y = frame.height - itemHeight
+        
+        for j in 0..<itemRows.count {
+            
+            for i in 0..<itemRows[j].count {
+                itemRows[j][i].frame = CGRectMake(x, y, itemWidth, itemHeight)
+                x += itemWidth
+            }
+            
+            x = 0.0
+            y -= itemHeight
+        }
+    }
+    
+    func updateItemSizes() {
+        itemWidth = frame.width / CGFloat(cols)
+        itemHeight = frame.height / CGFloat(rows)
+    }
+    
+    func positionForValue(value: Double, start: Double) -> CGPoint {
+        let x = CGFloat(start) * itemWidth
+        let y = frame.height - CGFloat(value + 1.0) * itemHeight
+        return CGPointMake(x, y)
+    }
+    
+    func valueForPosition(y: CGFloat) -> Double {
+        return Double(rows) - floor(Double(y / itemHeight)) - 1.0
+    }
+    
+    func startForPosition(x: CGFloat) -> Double {
+        return floor(Double(x / itemWidth))
+    }
+    
+    func buttonForValue(value: Double, start: Double) -> UIButton? {
+        
+        let y = Int(value)
+        let x = Int(start)
+        
+        if y < itemRows.count {
+            let row = itemRows[y]
+            if x < row.count {
+                return row[x]
+            }
+        }
+        
+        return nil
+    }
+    
+    func valueForButton(button: UIButton) -> Double {
+        return valueForPosition(button.frame.midY)
+    }
+    
+    func startForButton(button: UIButton) -> Double {
+        return startForPosition(button.frame.midX)
+    }
+    
+    func addItem(tag: Int, value: Double, start: Double, length: Double) {
+        let button = buttonForValue(value, start: start)
+        button?.tag = tag
+        button?.selected = true
+    }
+    
+    func itemTouched(sender: UIButton!) {
+        
+        if sender.selected {
+            sender.selected = false
+            delegate?.itemWasRemoved(sender.tag)
+        }
+        else {
+            sender.selected = true
+            let value = valueForButton(sender)
+            let start = startForButton(sender)
+            delegate?.itemWasAdded(sender, value: value, start: start, length: 1.0)
+        }
+    }
+}

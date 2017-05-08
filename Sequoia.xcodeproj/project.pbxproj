@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B09E0891A2F996C00D44FB0 /* P200 Piano A#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E0741A2F996C00D44FB0 /* P200 Piano A#2.caf */; };
+		3B09E08A1A2F996C00D44FB0 /* P200 Piano A#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E0751A2F996C00D44FB0 /* P200 Piano A#3.caf */; };
+		3B09E08B1A2F996C00D44FB0 /* P200 Piano A#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E0761A2F996C00D44FB0 /* P200 Piano A#4.caf */; };
+		3B09E08C1A2F996C00D44FB0 /* P200 Piano A#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E0771A2F996C00D44FB0 /* P200 Piano A#5.caf */; };
+		3B09E08D1A2F996C00D44FB0 /* P200 Piano A#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E0781A2F996C00D44FB0 /* P200 Piano A#7.caf */; };
+		3B09E08E1A2F996C00D44FB0 /* P200 Piano C7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E0791A2F996C00D44FB0 /* P200 Piano C7.caf */; };
+		3B09E08F1A2F996C00D44FB0 /* P200 Piano C10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E07A1A2F996C00D44FB0 /* P200 Piano C10.caf */; };
+		3B09E0901A2F996C00D44FB0 /* P200 Piano D#8.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E07B1A2F996C00D44FB0 /* P200 Piano D#8.caf */; };
+		3B09E0911A2F996C00D44FB0 /* P200 Piano D2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E07C1A2F996C00D44FB0 /* P200 Piano D2.caf */; };
+		3B09E0921A2F996C00D44FB0 /* P200 Piano D3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E07D1A2F996C00D44FB0 /* P200 Piano D3.caf */; };
+		3B09E0931A2F996C00D44FB0 /* P200 Piano D4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E07E1A2F996C00D44FB0 /* P200 Piano D4.caf */; };
+		3B09E0941A2F996C00D44FB0 /* P200 Piano D5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E07F1A2F996C00D44FB0 /* P200 Piano D5.caf */; };
+		3B09E0951A2F996C00D44FB0 /* P200 Piano D6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E0801A2F996C00D44FB0 /* P200 Piano D6.caf */; };
+		3B09E0961A2F996C00D44FB0 /* P200 Piano F#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E0811A2F996C00D44FB0 /* P200 Piano F#2.caf */; };
+		3B09E0971A2F996C00D44FB0 /* P200 Piano F#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E0821A2F996C00D44FB0 /* P200 Piano F#3.caf */; };
+		3B09E0981A2F996C00D44FB0 /* P200 Piano F#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E0831A2F996C00D44FB0 /* P200 Piano F#4.caf */; };
+		3B09E0991A2F996C00D44FB0 /* P200 Piano F#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E0841A2F996C00D44FB0 /* P200 Piano F#5.caf */; };
+		3B09E09A1A2F996C00D44FB0 /* P200 Piano F#6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E0851A2F996C00D44FB0 /* P200 Piano F#6.caf */; };
+		3B09E09B1A2F996C00D44FB0 /* P200 Piano F#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E0861A2F996C00D44FB0 /* P200 Piano F#7.caf */; };
+		3B09E09C1A2F996C00D44FB0 /* P200 Piano G#9.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E0871A2F996C00D44FB0 /* P200 Piano G#9.caf */; };
+		3B09E09D1A2F996C00D44FB0 /* Piano.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B09E0881A2F996C00D44FB0 /* Piano.plist */; };
+		3B09E0A21A2F99AE00D44FB0 /* OpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B09E09E1A2F99AE00D44FB0 /* OpenALSupport.c */; };
+		3B09E0A31A2F99AE00D44FB0 /* SoundBankPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B09E0A11A2F99AE00D44FB0 /* SoundBankPlayer.m */; };
+		3B5087F71CC71053007D7A40 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5087F61CC71053007D7A40 /* AppData.swift */; };
+		3B5087F91CC75B7B007D7A40 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3B5087F81CC75B7B007D7A40 /* Podfile */; };
+		3B548E361A561D7000E89499 /* SectionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B548E351A561D7000E89499 /* SectionDetailViewController.swift */; };
+		3B548E381A561D9B00E89499 /* TrackDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B548E371A561D9B00E89499 /* TrackDetailViewController.swift */; };
+		3B75675C1A5890AA0058F6D2 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 3B75675B1A5890AA0058F6D2 /* Images */; };
+		3B75675E1A5E4D470058F6D2 /* ToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B75675D1A5E4D470058F6D2 /* ToolbarController.swift */; };
+		3B80E2DA1CC83EBD000F8416 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80E2D91CC83EBD000F8416 /* BrowserViewController.swift */; };
+		3BA2F6451A4F55FD00F506D7 /* Bugs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3BA2F6441A4F55FD00F506D7 /* Bugs.txt */; };
+		3BAC07D71A2BBE5000E9C0EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC07D61A2BBE5000E9C0EA /* AppDelegate.swift */; };
+		3BAC07DA1A2BBE5000E9C0EA /* Sequoia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC07D81A2BBE5000E9C0EA /* Sequoia.xcdatamodeld */; };
+		3BAC07DE1A2BBE5000E9C0EA /* SequenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC07DD1A2BBE5000E9C0EA /* SequenceViewController.swift */; };
+		3BAC07E11A2BBE5000E9C0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAC07DF1A2BBE5000E9C0EA /* Main.storyboard */; };
+		3BAC07E31A2BBE5000E9C0EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAC07E21A2BBE5000E9C0EA /* Images.xcassets */; };
+		3BAC07E61A2BBE5000E9C0EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BAC07E41A2BBE5000E9C0EA /* LaunchScreen.xib */; };
+		3BAC08051A2CB2CD00E9C0EA /* SequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC08041A2CB2CD00E9C0EA /* SequenceView.swift */; };
+		3BB1ED4D1A4B4C1200AC8887 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1ED4C1A4B4C1200AC8887 /* Player.swift */; };
+		3BB1ED4F1A4B4D2300AC8887 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1ED4E1A4B4D2300AC8887 /* Instrument.swift */; };
+		3BB9F32A1A4DF43B00624BF3 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB9F3291A4DF43B00624BF3 /* Track.swift */; };
+		3BB9F32C1A4DF43B00624BF3 /* TrackFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB9F32B1A4DF43B00624BF3 /* TrackFile.swift */; };
+		3BB9F32E1A4DF43B00624BF3 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB9F32D1A4DF43B00624BF3 /* Song.swift */; };
+		3BF7DD161A32971300FC5AE8 /* SequenceViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7DD151A32971300FC5AE8 /* SequenceViewDelegate.swift */; };
+		3BF7DD291A3C9C7500FC5AE8 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7DD281A3C9C7500FC5AE8 /* Sequence.swift */; };
+		3BF7DD2B1A3C9C7500FC5AE8 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7DD2A1A3C9C7500FC5AE8 /* Note.swift */; };
+		3BF7DDAD1A3DDEA500FC5AE8 /* Todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3BF7DDAC1A3DDEA500FC5AE8 /* Todo.txt */; };
+		3BF7DDB11A3ED05900FC5AE8 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7DDB01A3ED05900FC5AE8 /* File.swift */; };
+		3BF7DDB31A3ED05900FC5AE8 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7DDB21A3ED05900FC5AE8 /* Folder.swift */; };
+		3BF7DDB51A3ED05A00FC5AE8 /* SequenceFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7DDB41A3ED05A00FC5AE8 /* SequenceFile.swift */; };
+		3BF7DDB71A3ED05A00FC5AE8 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7DDB61A3ED05A00FC5AE8 /* Section.swift */; };
+		535C61249C7E67A529351A97 /* Pods_Sequoia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1726540078460C526964C7DF /* Pods_Sequoia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1726540078460C526964C7DF /* Pods_Sequoia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sequoia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B09E0741A2F996C00D44FB0 /* P200 Piano A#2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#2.caf"; path = "Sequoia/Sounds/P200 Piano A#2.caf"; sourceTree = "<group>"; };
+		3B09E0751A2F996C00D44FB0 /* P200 Piano A#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#3.caf"; path = "Sequoia/Sounds/P200 Piano A#3.caf"; sourceTree = "<group>"; };
+		3B09E0761A2F996C00D44FB0 /* P200 Piano A#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#4.caf"; path = "Sequoia/Sounds/P200 Piano A#4.caf"; sourceTree = "<group>"; };
+		3B09E0771A2F996C00D44FB0 /* P200 Piano A#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#5.caf"; path = "Sequoia/Sounds/P200 Piano A#5.caf"; sourceTree = "<group>"; };
+		3B09E0781A2F996C00D44FB0 /* P200 Piano A#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano A#7.caf"; path = "Sequoia/Sounds/P200 Piano A#7.caf"; sourceTree = "<group>"; };
+		3B09E0791A2F996C00D44FB0 /* P200 Piano C7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano C7.caf"; path = "Sequoia/Sounds/P200 Piano C7.caf"; sourceTree = "<group>"; };
+		3B09E07A1A2F996C00D44FB0 /* P200 Piano C10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano C10.caf"; path = "Sequoia/Sounds/P200 Piano C10.caf"; sourceTree = "<group>"; };
+		3B09E07B1A2F996C00D44FB0 /* P200 Piano D#8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D#8.caf"; path = "Sequoia/Sounds/P200 Piano D#8.caf"; sourceTree = "<group>"; };
+		3B09E07C1A2F996C00D44FB0 /* P200 Piano D2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D2.caf"; path = "Sequoia/Sounds/P200 Piano D2.caf"; sourceTree = "<group>"; };
+		3B09E07D1A2F996C00D44FB0 /* P200 Piano D3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D3.caf"; path = "Sequoia/Sounds/P200 Piano D3.caf"; sourceTree = "<group>"; };
+		3B09E07E1A2F996C00D44FB0 /* P200 Piano D4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D4.caf"; path = "Sequoia/Sounds/P200 Piano D4.caf"; sourceTree = "<group>"; };
+		3B09E07F1A2F996C00D44FB0 /* P200 Piano D5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D5.caf"; path = "Sequoia/Sounds/P200 Piano D5.caf"; sourceTree = "<group>"; };
+		3B09E0801A2F996C00D44FB0 /* P200 Piano D6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano D6.caf"; path = "Sequoia/Sounds/P200 Piano D6.caf"; sourceTree = "<group>"; };
+		3B09E0811A2F996C00D44FB0 /* P200 Piano F#2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#2.caf"; path = "Sequoia/Sounds/P200 Piano F#2.caf"; sourceTree = "<group>"; };
+		3B09E0821A2F996C00D44FB0 /* P200 Piano F#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#3.caf"; path = "Sequoia/Sounds/P200 Piano F#3.caf"; sourceTree = "<group>"; };
+		3B09E0831A2F996C00D44FB0 /* P200 Piano F#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#4.caf"; path = "Sequoia/Sounds/P200 Piano F#4.caf"; sourceTree = "<group>"; };
+		3B09E0841A2F996C00D44FB0 /* P200 Piano F#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#5.caf"; path = "Sequoia/Sounds/P200 Piano F#5.caf"; sourceTree = "<group>"; };
+		3B09E0851A2F996C00D44FB0 /* P200 Piano F#6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#6.caf"; path = "Sequoia/Sounds/P200 Piano F#6.caf"; sourceTree = "<group>"; };
+		3B09E0861A2F996C00D44FB0 /* P200 Piano F#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano F#7.caf"; path = "Sequoia/Sounds/P200 Piano F#7.caf"; sourceTree = "<group>"; };
+		3B09E0871A2F996C00D44FB0 /* P200 Piano G#9.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "P200 Piano G#9.caf"; path = "Sequoia/Sounds/P200 Piano G#9.caf"; sourceTree = "<group>"; };
+		3B09E0881A2F996C00D44FB0 /* Piano.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Piano.plist; path = Sequoia/Sounds/Piano.plist; sourceTree = "<group>"; };
+		3B09E09E1A2F99AE00D44FB0 /* OpenALSupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = OpenALSupport.c; path = Sequoia/OpenALSupport.c; sourceTree = "<group>"; };
+		3B09E09F1A2F99AE00D44FB0 /* OpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenALSupport.h; path = Sequoia/OpenALSupport.h; sourceTree = "<group>"; };
+		3B09E0A01A2F99AE00D44FB0 /* SoundBankPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundBankPlayer.h; path = Sequoia/SoundBankPlayer.h; sourceTree = "<group>"; };
+		3B09E0A11A2F99AE00D44FB0 /* SoundBankPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundBankPlayer.m; path = Sequoia/SoundBankPlayer.m; sourceTree = "<group>"; };
+		3B5087F61CC71053007D7A40 /* AppData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		3B5087F81CC75B7B007D7A40 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3B548E351A561D7000E89499 /* SectionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SectionDetailViewController.swift; path = Sequoia/SectionDetailViewController.swift; sourceTree = "<group>"; };
+		3B548E371A561D9B00E89499 /* TrackDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackDetailViewController.swift; path = Sequoia/TrackDetailViewController.swift; sourceTree = "<group>"; };
+		3B75675B1A5890AA0058F6D2 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		3B75675D1A5E4D470058F6D2 /* ToolbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToolbarController.swift; path = Sequoia/ToolbarController.swift; sourceTree = "<group>"; };
+		3B80E2D91CC83EBD000F8416 /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrowserViewController.swift; path = Sequoia/BrowserViewController.swift; sourceTree = "<group>"; };
+		3BA2F6441A4F55FD00F506D7 /* Bugs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bugs.txt; sourceTree = "<group>"; };
+		3BAC07D11A2BBE5000E9C0EA /* Sequoia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sequoia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAC07D51A2BBE5000E9C0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BAC07D61A2BBE5000E9C0EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Sequoia/AppDelegate.swift; sourceTree = "<group>"; };
+		3BAC07D91A2BBE5000E9C0EA /* Sequoia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sequoia.xcdatamodel; sourceTree = "<group>"; };
+		3BAC07DD1A2BBE5000E9C0EA /* SequenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SequenceViewController.swift; path = Sequoia/SequenceViewController.swift; sourceTree = "<group>"; };
+		3BAC07E01A2BBE5000E9C0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BAC07E21A2BBE5000E9C0EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BAC07E51A2BBE5000E9C0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3BAC08041A2CB2CD00E9C0EA /* SequenceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SequenceView.swift; path = Sequoia/SequenceView.swift; sourceTree = "<group>"; };
+		3BB1ED4C1A4B4C1200AC8887 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = Sequoia/Player.swift; sourceTree = "<group>"; };
+		3BB1ED4E1A4B4D2300AC8887 /* Instrument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Instrument.swift; path = Sequoia/Instrument.swift; sourceTree = "<group>"; };
+		3BB9F3291A4DF43B00624BF3 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Track.swift; path = Sequoia/Track.swift; sourceTree = "<group>"; };
+		3BB9F32B1A4DF43B00624BF3 /* TrackFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackFile.swift; path = Sequoia/TrackFile.swift; sourceTree = "<group>"; };
+		3BB9F32D1A4DF43B00624BF3 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Song.swift; path = Sequoia/Song.swift; sourceTree = "<group>"; };
+		3BF7DD151A32971300FC5AE8 /* SequenceViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SequenceViewDelegate.swift; path = Sequoia/SequenceViewDelegate.swift; sourceTree = "<group>"; };
+		3BF7DD171A32979C00FC5AE8 /* SoundBankPlayerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundBankPlayerBridge.h; path = Sequoia/SoundBankPlayerBridge.h; sourceTree = "<group>"; };
+		3BF7DD281A3C9C7500FC5AE8 /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = Sequoia/Sequence.swift; sourceTree = "<group>"; };
+		3BF7DD2A1A3C9C7500FC5AE8 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Note.swift; path = Sequoia/Note.swift; sourceTree = "<group>"; };
+		3BF7DDAC1A3DDEA500FC5AE8 /* Todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Todo.txt; sourceTree = "<group>"; };
+		3BF7DDB01A3ED05900FC5AE8 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File.swift; path = Sequoia/File.swift; sourceTree = "<group>"; };
+		3BF7DDB21A3ED05900FC5AE8 /* Folder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Folder.swift; path = Sequoia/Folder.swift; sourceTree = "<group>"; };
+		3BF7DDB41A3ED05A00FC5AE8 /* SequenceFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SequenceFile.swift; path = Sequoia/SequenceFile.swift; sourceTree = "<group>"; };
+		3BF7DDB61A3ED05A00FC5AE8 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Sequoia/Section.swift; sourceTree = "<group>"; };
+		3DCF2DADE54B1A4DF6238FBD /* Pods-Sequoia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sequoia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sequoia/Pods-Sequoia.debug.xcconfig"; sourceTree = "<group>"; };
+		CDE1EFD9FAC1AE4E37249CCE /* Pods-Sequoia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sequoia.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sequoia/Pods-Sequoia.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BAC07CE1A2BBE4F00E9C0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535C61249C7E67A529351A97 /* Pods_Sequoia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B09E0411A2F980A00D44FB0 /* SoundBankPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3B09E0A01A2F99AE00D44FB0 /* SoundBankPlayer.h */,
+				3B09E0A11A2F99AE00D44FB0 /* SoundBankPlayer.m */,
+				3BF7DD171A32979C00FC5AE8 /* SoundBankPlayerBridge.h */,
+				3B09E09F1A2F99AE00D44FB0 /* OpenALSupport.h */,
+				3B09E09E1A2F99AE00D44FB0 /* OpenALSupport.c */,
+				3B09E0491A2F98EB00D44FB0 /* Sounds */,
+			);
+			name = SoundBankPlayer;
+			sourceTree = "<group>";
+		};
+		3B09E0491A2F98EB00D44FB0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3BF7DD141A31EB9A00FC5AE8 /* Piano */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		3BAC07C81A2BBE4F00E9C0EA = {
+			isa = PBXGroup;
+			children = (
+				3B5087F81CC75B7B007D7A40 /* Podfile */,
+				3BAC07FF1A2CA5B100E9C0EA /* Models */,
+				3BAC08011A2CA5F000E9C0EA /* Controllers */,
+				3BAC08001A2CA5D900E9C0EA /* Views */,
+				3B09E0411A2F980A00D44FB0 /* SoundBankPlayer */,
+				3BAC07D41A2BBE5000E9C0EA /* Supporting Files */,
+				3BAC07D21A2BBE5000E9C0EA /* Products */,
+				4AB4CE19275C1D404FDDBD31 /* Pods */,
+				58307D7768079BF6AE34A92B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BAC07D21A2BBE5000E9C0EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BAC07D11A2BBE5000E9C0EA /* Sequoia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BAC07D41A2BBE5000E9C0EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BF7DDAC1A3DDEA500FC5AE8 /* Todo.txt */,
+				3BA2F6441A4F55FD00F506D7 /* Bugs.txt */,
+				3BAC07D51A2BBE5000E9C0EA /* Info.plist */,
+				3B75675B1A5890AA0058F6D2 /* Images */,
+				3BAC07E21A2BBE5000E9C0EA /* Images.xcassets */,
+			);
+			name = "Supporting Files";
+			path = Sequoia;
+			sourceTree = "<group>";
+		};
+		3BAC07FF1A2CA5B100E9C0EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BAC07D81A2BBE5000E9C0EA /* Sequoia.xcdatamodeld */,
+				3B5087F61CC71053007D7A40 /* AppData.swift */,
+				3BF7DDB01A3ED05900FC5AE8 /* File.swift */,
+				3BF7DDB21A3ED05900FC5AE8 /* Folder.swift */,
+				3BF7DD2A1A3C9C7500FC5AE8 /* Note.swift */,
+				3BF7DDB61A3ED05A00FC5AE8 /* Section.swift */,
+				3BF7DD281A3C9C7500FC5AE8 /* Sequence.swift */,
+				3BF7DDB41A3ED05A00FC5AE8 /* SequenceFile.swift */,
+				3BB9F32D1A4DF43B00624BF3 /* Song.swift */,
+				3BB9F3291A4DF43B00624BF3 /* Track.swift */,
+				3BB9F32B1A4DF43B00624BF3 /* TrackFile.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3BAC08001A2CA5D900E9C0EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BAC07E41A2BBE5000E9C0EA /* LaunchScreen.xib */,
+				3BAC07DF1A2BBE5000E9C0EA /* Main.storyboard */,
+				3BAC08041A2CB2CD00E9C0EA /* SequenceView.swift */,
+				3BF7DD151A32971300FC5AE8 /* SequenceViewDelegate.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3BAC08011A2CA5F000E9C0EA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BAC07D61A2BBE5000E9C0EA /* AppDelegate.swift */,
+				3B75675D1A5E4D470058F6D2 /* ToolbarController.swift */,
+				3B80E2D91CC83EBD000F8416 /* BrowserViewController.swift */,
+				3BAC07DD1A2BBE5000E9C0EA /* SequenceViewController.swift */,
+				3B548E351A561D7000E89499 /* SectionDetailViewController.swift */,
+				3B548E371A561D9B00E89499 /* TrackDetailViewController.swift */,
+				3BB1ED4C1A4B4C1200AC8887 /* Player.swift */,
+				3BB1ED4E1A4B4D2300AC8887 /* Instrument.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3BF7DD141A31EB9A00FC5AE8 /* Piano */ = {
+			isa = PBXGroup;
+			children = (
+				3B09E0741A2F996C00D44FB0 /* P200 Piano A#2.caf */,
+				3B09E0751A2F996C00D44FB0 /* P200 Piano A#3.caf */,
+				3B09E0761A2F996C00D44FB0 /* P200 Piano A#4.caf */,
+				3B09E0771A2F996C00D44FB0 /* P200 Piano A#5.caf */,
+				3B09E0781A2F996C00D44FB0 /* P200 Piano A#7.caf */,
+				3B09E0791A2F996C00D44FB0 /* P200 Piano C7.caf */,
+				3B09E07A1A2F996C00D44FB0 /* P200 Piano C10.caf */,
+				3B09E07B1A2F996C00D44FB0 /* P200 Piano D#8.caf */,
+				3B09E07C1A2F996C00D44FB0 /* P200 Piano D2.caf */,
+				3B09E07D1A2F996C00D44FB0 /* P200 Piano D3.caf */,
+				3B09E07E1A2F996C00D44FB0 /* P200 Piano D4.caf */,
+				3B09E07F1A2F996C00D44FB0 /* P200 Piano D5.caf */,
+				3B09E0801A2F996C00D44FB0 /* P200 Piano D6.caf */,
+				3B09E0811A2F996C00D44FB0 /* P200 Piano F#2.caf */,
+				3B09E0821A2F996C00D44FB0 /* P200 Piano F#3.caf */,
+				3B09E0831A2F996C00D44FB0 /* P200 Piano F#4.caf */,
+				3B09E0841A2F996C00D44FB0 /* P200 Piano F#5.caf */,
+				3B09E0851A2F996C00D44FB0 /* P200 Piano F#6.caf */,
+				3B09E0861A2F996C00D44FB0 /* P200 Piano F#7.caf */,
+				3B09E0871A2F996C00D44FB0 /* P200 Piano G#9.caf */,
+				3B09E0881A2F996C00D44FB0 /* Piano.plist */,
+			);
+			name = Piano;
+			sourceTree = "<group>";
+		};
+		4AB4CE19275C1D404FDDBD31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DCF2DADE54B1A4DF6238FBD /* Pods-Sequoia.debug.xcconfig */,
+				CDE1EFD9FAC1AE4E37249CCE /* Pods-Sequoia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		58307D7768079BF6AE34A92B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1726540078460C526964C7DF /* Pods_Sequoia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BAC07D01A2BBE4F00E9C0EA /* Sequoia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BAC07F51A2BBE5000E9C0EA /* Build configuration list for PBXNativeTarget "Sequoia" */;
+			buildPhases = (
+				BA18671513A6004230F750F2 /* [CP] Check Pods Manifest.lock */,
+				3BAC07CD1A2BBE4F00E9C0EA /* Sources */,
+				3BAC07CE1A2BBE4F00E9C0EA /* Frameworks */,
+				3BAC07CF1A2BBE4F00E9C0EA /* Resources */,
+				2DECF81E99F0A5BC5F07DC46 /* [CP] Embed Pods Frameworks */,
+				29949946439248B975BD7673 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sequoia;
+			productName = Sequoia;
+			productReference = 3BAC07D11A2BBE5000E9C0EA /* Sequoia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BAC07C91A2BBE4F00E9C0EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Secret Geometry, Inc.";
+				TargetAttributes = {
+					3BAC07D01A2BBE4F00E9C0EA = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = B55ZL2Y7PW;
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 3BAC07CC1A2BBE4F00E9C0EA /* Build configuration list for PBXProject "Sequoia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BAC07C81A2BBE4F00E9C0EA;
+			productRefGroup = 3BAC07D21A2BBE5000E9C0EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BAC07D01A2BBE4F00E9C0EA /* Sequoia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BAC07CF1A2BBE4F00E9C0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B09E0911A2F996C00D44FB0 /* P200 Piano D2.caf in Resources */,
+				3B09E0921A2F996C00D44FB0 /* P200 Piano D3.caf in Resources */,
+				3B09E08A1A2F996C00D44FB0 /* P200 Piano A#3.caf in Resources */,
+				3B09E0941A2F996C00D44FB0 /* P200 Piano D5.caf in Resources */,
+				3B09E0901A2F996C00D44FB0 /* P200 Piano D#8.caf in Resources */,
+				3BF7DDAD1A3DDEA500FC5AE8 /* Todo.txt in Resources */,
+				3B09E0991A2F996C00D44FB0 /* P200 Piano F#5.caf in Resources */,
+				3BAC07E11A2BBE5000E9C0EA /* Main.storyboard in Resources */,
+				3B09E0891A2F996C00D44FB0 /* P200 Piano A#2.caf in Resources */,
+				3B09E0971A2F996C00D44FB0 /* P200 Piano F#3.caf in Resources */,
+				3B09E0961A2F996C00D44FB0 /* P200 Piano F#2.caf in Resources */,
+				3B09E0931A2F996C00D44FB0 /* P200 Piano D4.caf in Resources */,
+				3B09E08B1A2F996C00D44FB0 /* P200 Piano A#4.caf in Resources */,
+				3BAC07E61A2BBE5000E9C0EA /* LaunchScreen.xib in Resources */,
+				3B09E09C1A2F996C00D44FB0 /* P200 Piano G#9.caf in Resources */,
+				3B09E09A1A2F996C00D44FB0 /* P200 Piano F#6.caf in Resources */,
+				3B75675C1A5890AA0058F6D2 /* Images in Resources */,
+				3B09E08F1A2F996C00D44FB0 /* P200 Piano C10.caf in Resources */,
+				3BA2F6451A4F55FD00F506D7 /* Bugs.txt in Resources */,
+				3B09E09B1A2F996C00D44FB0 /* P200 Piano F#7.caf in Resources */,
+				3B09E08C1A2F996C00D44FB0 /* P200 Piano A#5.caf in Resources */,
+				3B09E0981A2F996C00D44FB0 /* P200 Piano F#4.caf in Resources */,
+				3B09E0951A2F996C00D44FB0 /* P200 Piano D6.caf in Resources */,
+				3B09E09D1A2F996C00D44FB0 /* Piano.plist in Resources */,
+				3B09E08E1A2F996C00D44FB0 /* P200 Piano C7.caf in Resources */,
+				3B09E08D1A2F996C00D44FB0 /* P200 Piano A#7.caf in Resources */,
+				3B5087F91CC75B7B007D7A40 /* Podfile in Resources */,
+				3BAC07E31A2BBE5000E9C0EA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29949946439248B975BD7673 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sequoia/Pods-Sequoia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DECF81E99F0A5BC5F07DC46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sequoia/Pods-Sequoia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA18671513A6004230F750F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BAC07CD1A2BBE4F00E9C0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF7DD161A32971300FC5AE8 /* SequenceViewDelegate.swift in Sources */,
+				3B5087F71CC71053007D7A40 /* AppData.swift in Sources */,
+				3B548E361A561D7000E89499 /* SectionDetailViewController.swift in Sources */,
+				3B09E0A31A2F99AE00D44FB0 /* SoundBankPlayer.m in Sources */,
+				3B75675E1A5E4D470058F6D2 /* ToolbarController.swift in Sources */,
+				3BF7DD291A3C9C7500FC5AE8 /* Sequence.swift in Sources */,
+				3BF7DDB71A3ED05A00FC5AE8 /* Section.swift in Sources */,
+				3BB9F32E1A4DF43B00624BF3 /* Song.swift in Sources */,
+				3BB9F32C1A4DF43B00624BF3 /* TrackFile.swift in Sources */,
+				3BB1ED4F1A4B4D2300AC8887 /* Instrument.swift in Sources */,
+				3BB9F32A1A4DF43B00624BF3 /* Track.swift in Sources */,
+				3BAC08051A2CB2CD00E9C0EA /* SequenceView.swift in Sources */,
+				3BAC07D71A2BBE5000E9C0EA /* AppDelegate.swift in Sources */,
+				3BF7DD2B1A3C9C7500FC5AE8 /* Note.swift in Sources */,
+				3BAC07DA1A2BBE5000E9C0EA /* Sequoia.xcdatamodeld in Sources */,
+				3B09E0A21A2F99AE00D44FB0 /* OpenALSupport.c in Sources */,
+				3BB1ED4D1A4B4C1200AC8887 /* Player.swift in Sources */,
+				3BF7DDB51A3ED05A00FC5AE8 /* SequenceFile.swift in Sources */,
+				3BF7DDB11A3ED05900FC5AE8 /* File.swift in Sources */,
+				3B80E2DA1CC83EBD000F8416 /* BrowserViewController.swift in Sources */,
+				3BAC07DE1A2BBE5000E9C0EA /* SequenceViewController.swift in Sources */,
+				3BF7DDB31A3ED05900FC5AE8 /* Folder.swift in Sources */,
+				3B548E381A561D9B00E89499 /* TrackDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BAC07DF1A2BBE5000E9C0EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAC07E01A2BBE5000E9C0EA /* Base */,
+			);
+			name = Main.storyboard;
+			path = Sequoia;
+			sourceTree = "<group>";
+		};
+		3BAC07E41A2BBE5000E9C0EA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAC07E51A2BBE5000E9C0EA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Sequoia;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BAC07F31A2BBE5000E9C0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BAC07F41A2BBE5000E9C0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BAC07F61A2BBE5000E9C0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DCF2DADE54B1A4DF6238FBD /* Pods-Sequoia.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = B55ZL2Y7PW;
+				INFOPLIST_FILE = Sequoia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.secretgeometry.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Sequoia/SoundBankPlayerBridge.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3BAC07F71A2BBE5000E9C0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE1EFD9FAC1AE4E37249CCE /* Pods-Sequoia.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = B55ZL2Y7PW;
+				INFOPLIST_FILE = Sequoia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.secretgeometry.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Sequoia/SoundBankPlayerBridge.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BAC07CC1A2BBE4F00E9C0EA /* Build configuration list for PBXProject "Sequoia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BAC07F31A2BBE5000E9C0EA /* Debug */,
+				3BAC07F41A2BBE5000E9C0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BAC07F51A2BBE5000E9C0EA /* Build configuration list for PBXNativeTarget "Sequoia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BAC07F61A2BBE5000E9C0EA /* Debug */,
+				3BAC07F71A2BBE5000E9C0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3BAC07D81A2BBE5000E9C0EA /* Sequoia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BAC07D91A2BBE5000E9C0EA /* Sequoia.xcdatamodel */,
+			);
+			currentVersion = 3BAC07D91A2BBE5000E9C0EA /* Sequoia.xcdatamodel */;
+			name = Sequoia.xcdatamodeld;
+			path = Sequoia/Sequoia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3BAC07C91A2BBE4F00E9C0EA /* Project object */;
+}

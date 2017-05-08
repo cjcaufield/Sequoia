@@ -1,0 +1,134 @@
+0.2b UI
+-------
+
+- Global playback toolbar in Details.
+- Name editing
+
+0.3b Player
+-----------
+
+Player:
+- Separate player from UI
+- User movable playback cursor
+- Move to arbitrary sequence (next/previous)
+- Auto switch to next sequence when playing.
+
+Animation:
+- SequenceView playback cursor
+- Browser cell playback animation
+
+Tracks:
+- Song tracks
+- Track detail instrument picker.
+- Hard-coded instruments (temp) (using octaves for Bells, Piano, Bass)
+- Assign sequences to tracks
+- Show unused track (put new items there? keep motifs there?)
+
+Mute/Solo:
+- Buttons
+- Implementation
+
+0.4b SequenceView
+-----------------
+
+Changing:
+- Variable length items
+- Change item intensity
+- UI for changing horizontal/vertical note drag behavior (Move, Intensity, Other (Add, Edit))
+
+Movement:
+- Scrollable
+- Zoom in/out with gesture
+
+Looks:
+- Draw grid lines at octaves and spaces
+- Nicer looking notes (CoreGraphics?)
+- Colors
+
+0.5b Organization
+-----------------
+
+Browser:
+- Track view
+- Multiple sequences in a section
+- Folders of tracks, folders of sections
+- Fake nested headers
+
+Moving:
+- Move items to different headers in Section and Track views.
+- Change track or section from sequence detail view.
+
+0.6b Timing
+-----------
+
+Lengths & Loops:
+- Length detail for Sections/Sequences.
+- Auto-loop short sequences
+
+Data Model:
+- Sequence/section lengths
+- Sequence start time in section
+- Sequence start offset
+- Sequence tempo (quarter, half, whole, etc.)
+- Looping options
+- Leading/trailing notes
+- Comments
+
+0.7b Relations
+--------------
+
+Data:
+- Keys/Scales
+- Octaves
+- Notes
+- Relative to origin, or vertically aligned.
+
+SequenceView:
+- Draw relative notes differently from raw notes
+- Draw other sequences below with transparency
+- UI for organizing (saving?) layer tranparency
+
+0.8b Core Data
+--------------
+
+Undo/Redo:
+- Buttons
+- Implementation
+
+Cloud:
+- Use for storage.
+
+0.9b Audio
+----------
+
+- Variable length notes
+- Note velocity
+- Other sounds (ES2?)
+- Other effects (Audio Units?)
+- Send MIDI to other devices
+
+1.0 UI Polish
+-------------
+
+- Make iPad UI work
+- Final toolbar icons
+- Final cell playback icons
+- Final cell type icons
+
+2.0.0
+-----
+
+OverView:
+- SequenceView for tracks/sections/sequences
+
+Code sequences:
+- Implement
+
+Multiple relation sequences
+- Implement
+
+Audio Clips:
+- Implement
+
+iCloud:
+- Share with others

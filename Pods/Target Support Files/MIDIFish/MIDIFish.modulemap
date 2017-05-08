@@ -1,0 +1,6 @@
+framework module MIDIFish {
+  umbrella header "MIDIFish-umbrella.h"
+
+  export *
+  module * { export * }
+}
