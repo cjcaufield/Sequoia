@@ -1,28 +1,39 @@
 PODS:
-  - CocoaAsyncSocket (7.6.0)
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
   - MIDIFish (0.1.0)
-  - MIKMIDI (1.6.1)
+  - MIKMIDI (1.5.0)
   - OSCKit (0.3.5):
     - CocoaAsyncSocket (~> 7.3)
-  - SecretKit (0.1.7)
+  - Peak (1.2.0):
+    - Peak/Audio (= 1.2.0)
+  - Peak/Audio (1.2.0)
+  - SecretKit (0.1.6)
 
 DEPENDENCIES:
-  - MIDIFish (~> 0.1.0)
-  - MIKMIDI (~> 1.6.1)
-  - OSCKit (~> 0.3.5)
+  - MIDIFish (~> 0.1)
+  - MIKMIDI (~> 1.5)
+  - OSCKit (~> 0.3)
+  - Peak (~> 1.2)
   - SecretKit (from `~/Work/SecretKit`)
 
 EXTERNAL SOURCES:
   SecretKit:
-    :path: "~/Work/SecretKit"
+    :path: ~/Work/SecretKit
 
 SPEC CHECKSUMS:
-  CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
   MIDIFish: 03aae36c4ac99c8166fa206df221e6b85181c48a
-  MIKMIDI: ba2dae32a11dc4f1d980699e49ea1e30d013d101
+  MIKMIDI: d3fb1fdf3459eb9a5d3068536fb30e499266dea6
   OSCKit: 4470dbd30bc792dcf66dc4e7b5d1ec7174add33c
-  SecretKit: f3a5635df2cde25e7280c9db142e2687ce7d0aec
+  Peak: 6bb8efd82d0dc97e50052251144a08c29bf90cb7
+  SecretKit: 935c6dc17547f67a89e05f21ec56e515f3342271
 
-PODFILE CHECKSUM: 423a4ed504cc903985bc611e7340d3c2c28fe2ce
+PODFILE CHECKSUM: 3ff340eda4089227d119fa8fb51a74c434035f35
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.0.0.beta.6
